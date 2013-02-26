@@ -10,7 +10,7 @@ $fh.ready(function() {
 
   document.getElementById('run_button').onclick = function() {
     // Invoke a cloud action call to get the remote configuration
-    // See: http://docs.feedhenry.com/wiki/Actions
+    // See: http://docs.feedhenry.com/wiki/Actions 
     $fh.act(
       {
         act:'storeInfo',
