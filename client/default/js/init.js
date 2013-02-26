@@ -20,8 +20,7 @@ $fh.ready(function() {
         },
         {          
           name : 'Paschal',
-          work : 'FragD'}
-]
+          work : 'FragD' }]
       },
       function(res) {
         var name = res.data.fields.name;
