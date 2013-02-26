@@ -14,10 +14,14 @@ $fh.ready(function() {
     $fh.act(
       {
         act:'storeInfo',
-        req: {
+        req: [{
           name : 'Eoin',
           work : 'Feedhenry'
-        }
+        },
+        {          
+          name : 'Paschal',
+          work : 'FragD'}
+]
       },
       function(res) {
         var name = res.data.fields.name;
